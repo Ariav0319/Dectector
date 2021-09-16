@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+.topnav {
+	overflow: hidden;
+	background-color: #FFFFFF;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: pink;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: rgb(255, 213, 136);
+	color: white;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  img{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+.copy_right_footer{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
